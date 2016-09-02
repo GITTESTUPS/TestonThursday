@@ -96,16 +96,20 @@ Copyright 2004-2011 Avaya Inc.
         <servlet-class>flow.AppRoot</servlet-class>
     </servlet>
     <servlet id="SAGE-callflow-servlet_main_3">
-        <servlet-name>untitledAnnounce1</servlet-name>
-        <servlet-class>flow.untitledAnnounce1</servlet-class>
+        <servlet-name>Greeting</servlet-name>
+        <servlet-class>flow.Greeting</servlet-class>
     </servlet>
     <servlet id="SAGE-callflow-servlet_main_7">
-        <servlet-name>untitledReturn1</servlet-name>
-        <servlet-class>flow.untitledReturn1</servlet-class>
+        <servlet-name>Close</servlet-name>
+        <servlet-class>flow.Close</servlet-class>
     </servlet>
     <servlet id="SAGE-callflow-servlet_main_0">
         <servlet-name>Start</servlet-name>
         <servlet-class>flow.Start</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_15">
+        <servlet-name>Goodbye</servlet-name>
+        <servlet-class>flow.Goodbye</servlet-class>
     </servlet>
     <servlet-mapping id="avayadefaultdisconnecthandler-servletmapping">
         <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
@@ -136,15 +140,19 @@ Copyright 2004-2011 Avaya Inc.
         <url-pattern>/AppRoot</url-pattern>
     </servlet-mapping>
     <servlet-mapping id="SAGE-callflow-servletmapping_main_3">
-        <servlet-name>untitledAnnounce1</servlet-name>
-        <url-pattern>/untitledAnnounce1</url-pattern>
+        <servlet-name>Greeting</servlet-name>
+        <url-pattern>/Greeting</url-pattern>
     </servlet-mapping>
     <servlet-mapping id="SAGE-callflow-servletmapping_main_7">
-        <servlet-name>untitledReturn1</servlet-name>
-        <url-pattern>/untitledReturn1</url-pattern>
+        <servlet-name>Close</servlet-name>
+        <url-pattern>/Close</url-pattern>
     </servlet-mapping>
     <servlet-mapping id="SAGE-callflow-servletmapping_main_0">
         <servlet-name>Start</servlet-name>
         <url-pattern>/Start</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_15">
+        <servlet-name>Goodbye</servlet-name>
+        <url-pattern>/Goodbye</url-pattern>
     </servlet-mapping>
 </web-app>
