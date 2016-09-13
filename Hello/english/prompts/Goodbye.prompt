@@ -11,19 +11,7 @@
             <ChildItems>
                 <Segment class="com.avaya.sce.prompts.internal.segment.TTS" type="TTS">
                     <Properties>
-                        <Property name="Name" value="I don't know how I feel about that."/>
-                    </Properties>
-                    <ChildItems/>
-                </Segment>
-                <Segment class="com.avaya.sce.prompts.internal.segment.TTS" type="TTS">
-                    <Properties>
-                        <Property name="Name" value="Second line same as the first."/>
-                    </Properties>
-                    <ChildItems/>
-                </Segment>
-                <Segment class="com.avaya.sce.prompts.internal.segment.TTS" type="TTS">
-                    <Properties>
-                        <Property name="Name" value="Third line"/>
+                        <Property name="Name" value="Goodbye for now."/>
                     </Properties>
                     <ChildItems/>
                 </Segment>

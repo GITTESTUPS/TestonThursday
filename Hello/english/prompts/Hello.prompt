@@ -11,7 +11,7 @@
             <ChildItems>
                 <Segment class="com.avaya.sce.prompts.internal.segment.TTS" type="TTS">
                     <Properties>
-                        <Property name="Name" value="Someone stole my mood ring yesterday."/>
+                        <Property name="Name" value="Hello U P S"/>
                     </Properties>
                     <ChildItems/>
                 </Segment>
