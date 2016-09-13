@@ -15,6 +15,12 @@
                     </Properties>
                     <ChildItems/>
                 </Segment>
+                <Segment class="com.avaya.sce.prompts.internal.segment.TTS" type="TTS">
+                    <Properties>
+                        <Property name="Name" value="Second line same as the first."/>
+                    </Properties>
+                    <ChildItems/>
+                </Segment>
             </ChildItems>
         </PromptLevel>
     </Prompt>
